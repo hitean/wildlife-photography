@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+a{
+    color: #ccc;
+}
+.logo{
+    color: #ccc;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ .contact-banner {
+    color: white;
+            background-color: #454545;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .contact-banner a {
+            color: #d35400;
+            text-decoration: none;
+        }
+
+        .about-section {
+            
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: normal;
+        }
+
+        .about-text {
+            text-align: left;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .signature {
+            font-size: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .subscribe-section {
+            
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .subscribe-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: normal;
+        }
+
+        .subscribe-text {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .subscribe-form {
+            display: flex;
+            gap: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input[type="email"] {
+            flex: 1;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: none;
+        }
+
+        button {
+            padding: 0.8rem 2rem;
+            background-color: #ccc;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .privacy-notice {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .subscribe-form {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
